@@ -162,6 +162,12 @@ Colors are defined as CSS variables in `src/index.css`:
 
 ---
 
+## ❗️ Limitations
+
+This application uses a 100 5-letter word dataset. As a result, many 5-letter words would not register on this application. I did not want to include a large static dataset due to memory usage and it being so unnecessary due to how many words there are in existence. Initially, I incorporated AI to detect words that were not included in the dataset but are still valid 5-letter words. However, due to using AI API keys on a free tier, it is very frequent that I ran into an insuffient tokens error. Thus, I decided to stick to a smaller dataset and focus on creating a game that works well and is entertaining for users. 
+
+---
+
 ## 👩‍💻 Author
 
 **Yanisa Srisa-ard**
